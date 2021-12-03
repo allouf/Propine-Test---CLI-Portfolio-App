@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Analyzer",
+  "main": "index.js",
+  "bin": "./bin/portfolio.js",
+  "scripts": {
+    "start": "node ./bin/portfolio.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M.Allouf",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "configstore": "^5.0.1",
+    "csv-parser": "^3.0.0",
+    "inquirer": "^7.1.0"
+  }
+}
